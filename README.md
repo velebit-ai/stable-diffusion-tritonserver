@@ -1,10 +1,10 @@
-# stable-diffusion-tritonserver
+# Stable Diffusion on Tritonserver
 
 
 ## Download models
 ```bash
 # clone this repo
-git clone https://github.com/kamalkraj/stable-diffusion-tritonserver.git
+git clone https://github.com/velebit-ai/stable-diffusion-tritonserver.git
 cd stable-diffusion-tritonserver
 # clone model repo from huggingface
 git lfs install

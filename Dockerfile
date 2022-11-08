@@ -1,5 +1,6 @@
-FROM nvcr.io/nvidia/tritonserver:22.08-py3
+FROM nvcr.io/nvidia/tritonserver:22.09-py3
 
-RUN pip install torch --extra-index-url https://download.pytorch.org/whl/cu116
+COPY requirements.txt /app/requirements.txt
 
-RUN pip install --upgrade diffusers scipy transformers
+RUN pip install --no-cache-dir --extra-index-url https://download.pytorch.org/whl/cu116 \
+    -r /app/requirements.txt

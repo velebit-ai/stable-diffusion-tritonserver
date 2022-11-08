@@ -1,0 +1,10 @@
+diffusers==0.3.0
+huggingface-hub==0.10.1
+numpy==1.23.3
+Pillow==9.2.0
+requests==2.22.0
+scipy==1.9.1
+tokenizers==0.12.1
+tqdm==4.64.1
+transformers==4.22.2
+torch==1.12.1+cu116
